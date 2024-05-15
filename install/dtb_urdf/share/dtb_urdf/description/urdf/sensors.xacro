@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+
+<robot name="diff_mobile" xmlns:xacro="https://wiki.ros.org/xacro">
+

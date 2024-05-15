@@ -1,0 +1,4 @@
+source;share/dtb_mobile_cartographer/local_setup.bash
+source;share/dtb_mobile_cartographer/local_setup.dsv
+source;share/dtb_mobile_cartographer/local_setup.sh
+source;share/dtb_mobile_cartographer/local_setup.zsh

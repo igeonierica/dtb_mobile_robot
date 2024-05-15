@@ -1,0 +1,4 @@
+Invoking command in '/home/geoni/myros2_ws/build/ugv_sdk': /usr/bin/cmake --build /home/geoni/myros2_ws/build/ugv_sdk -- -j16 -l16
+Invoked command in '/home/geoni/myros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/geoni/myros2_ws/build/ugv_sdk -- -j16 -l16
+Invoking command in '/home/geoni/myros2_ws/build/ugv_sdk': /usr/bin/cmake --install /home/geoni/myros2_ws/build/ugv_sdk
+Invoked command in '/home/geoni/myros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/geoni/myros2_ws/build/ugv_sdk

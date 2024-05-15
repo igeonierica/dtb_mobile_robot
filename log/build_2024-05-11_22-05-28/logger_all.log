@@ -1,0 +1,712 @@
+[0.090s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.091s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x735499531e70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x735499531960>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x735499531960>>)
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.228s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/geoni/myros2_ws'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_bringup) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_bringup) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_bringup) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_bringup) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_bringup) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_bringup) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_bringup) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_bringup) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dtb_mobile_bringup' with type 'ros.ament_python' and name 'dtb_mobile_bringup'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_cartographer) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_cartographer) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_cartographer) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_cartographer) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_cartographer) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_cartographer) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_cartographer) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_cartographer) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dtb_mobile_cartographer' with type 'ros.ament_cmake' and name 'dtb_mobile_cartographer'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dtb_mobile_navigation' with type 'ros.ament_cmake' and name 'dtb_mobile_navigation'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation2) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation2) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation2) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation2) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation2) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation2) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation2) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_mobile_navigation2) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dtb_mobile_navigation2' with type 'ros.ament_python' and name 'dtb_mobile_navigation2'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_urdf) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_urdf) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_urdf) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_urdf) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_urdf) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_urdf) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_urdf) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/dtb_urdf) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dtb_urdf' with type 'ros.ament_cmake' and name 'dtb_urdf'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_mobile) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_mobile) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_mobile) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_mobile) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_mobile) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_mobile) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_mobile) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_mobile) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_diff_mobile) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_diff_mobile' with type 'ros.ament_cmake' and name 'my_diff_mobile'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extensions ['cmake', 'python']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'cmake'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'python'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extensions ['python_setup_py']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_base) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tracer_ros2/tracer_base' with type 'ros.ament_cmake' and name 'tracer_base'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/tracer_ros2/tracer_msgs) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tracer_ros2/tracer_msgs' with type 'ros.ament_cmake' and name 'tracer_msgs'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sdk) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sdk' with type 'ros.catkin' and name 'ugv_sdk'
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.271s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/geoni/myros2_ws/install
+[0.272s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/geoni/ros2_ws/install
+[0.273s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 344 installed packages in /opt/ros/humble
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_bringup' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_bringup' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'dtb_mobile_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geoni/myros2_ws/build/dtb_mobile_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geoni/myros2_ws/install/dtb_mobile_bringup', 'merge_install': False, 'path': '/home/geoni/myros2_ws/src/dtb_mobile_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'dtb_mobile_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geoni/myros2_ws/build/dtb_mobile_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geoni/myros2_ws/install/dtb_mobile_cartographer', 'merge_install': False, 'path': '/home/geoni/myros2_ws/src/dtb_mobile_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'dtb_mobile_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geoni/myros2_ws/build/dtb_mobile_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geoni/myros2_ws/install/dtb_mobile_navigation', 'merge_install': False, 'path': '/home/geoni/myros2_ws/src/dtb_mobile_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_mobile_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'dtb_mobile_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geoni/myros2_ws/build/dtb_mobile_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geoni/myros2_ws/install/dtb_mobile_navigation2', 'merge_install': False, 'path': '/home/geoni/myros2_ws/src/dtb_mobile_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_urdf' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_urdf' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'dtb_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'dtb_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geoni/myros2_ws/build/dtb_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geoni/myros2_ws/install/dtb_urdf', 'merge_install': False, 'path': '/home/geoni/myros2_ws/src/dtb_urdf', 'symlink_install': False, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'my_diff_mobile' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'my_diff_mobile' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'my_diff_mobile' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'my_diff_mobile' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_diff_mobile' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_diff_mobile' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_diff_mobile' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_diff_mobile' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'my_diff_mobile' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'my_diff_mobile' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geoni/myros2_ws/build/my_diff_mobile', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geoni/myros2_ws/install/my_diff_mobile', 'merge_install': False, 'path': '/home/geoni/myros2_ws/src/my_diff_mobile', 'symlink_install': False, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geoni/myros2_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geoni/myros2_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/geoni/myros2_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'tracer_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'tracer_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geoni/myros2_ws/build/tracer_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geoni/myros2_ws/install/tracer_msgs', 'merge_install': False, 'path': '/home/geoni/myros2_ws/src/tracer_ros2/tracer_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'ugv_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geoni/myros2_ws/build/ugv_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geoni/myros2_ws/install/ugv_sdk', 'merge_install': False, 'path': '/home/geoni/myros2_ws/src/ugv_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'tracer_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'tracer_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/geoni/myros2_ws/build/tracer_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/geoni/myros2_ws/install/tracer_base', 'merge_install': False, 'path': '/home/geoni/myros2_ws/src/tracer_ros2/tracer_base', 'symlink_install': False, 'test_result_base': None}
+[0.313s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.314s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geoni/myros2_ws/src/tracer_ros2/tracer_msgs' with build type 'ament_cmake'
+[0.314s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geoni/myros2_ws/src/tracer_ros2/tracer_msgs'
+[0.317s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.322s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/geoni/myros2_ws/src/ugv_sdk' with build type 'catkin'
+[0.322s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geoni/myros2_ws/src/ugv_sdk'
+[0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.329s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/geoni/myros2_ws/src/dtb_mobile_bringup' with build type 'ament_python'
+[0.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('dtb_mobile_bringup', 'ament_prefix_path')
+[0.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/hook/ament_prefix_path.ps1'
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/hook/ament_prefix_path.dsv'
+[0.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/hook/ament_prefix_path.sh'
+[0.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.333s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.339s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geoni/myros2_ws/src/dtb_mobile_cartographer' with build type 'ament_cmake'
+[0.339s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geoni/myros2_ws/src/dtb_mobile_cartographer'
+[0.339s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geoni/myros2_ws/src/dtb_mobile_navigation' with build type 'ament_cmake'
+[0.344s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geoni/myros2_ws/src/dtb_mobile_navigation'
+[0.344s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.347s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/geoni/myros2_ws/src/dtb_mobile_navigation2' with build type 'ament_python'
+[0.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('dtb_mobile_navigation2', 'ament_prefix_path')
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/share/dtb_mobile_navigation2/hook/ament_prefix_path.ps1'
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/share/dtb_mobile_navigation2/hook/ament_prefix_path.dsv'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/share/dtb_mobile_navigation2/hook/ament_prefix_path.sh'
+[0.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.356s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geoni/myros2_ws/src/dtb_urdf' with build type 'ament_cmake'
+[0.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geoni/myros2_ws/src/dtb_urdf'
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.361s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geoni/myros2_ws/src/my_diff_mobile' with build type 'ament_cmake'
+[0.361s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geoni/myros2_ws/src/my_diff_mobile'
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.365s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geoni/myros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[0.365s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geoni/myros2_ws/src/sllidar_ros2'
+[0.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/tracer_msgs -- -j16 -l16
+[0.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/ugv_sdk': /usr/bin/cmake --build /home/geoni/myros2_ws/build/ugv_sdk -- -j16 -l16
+[0.622s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/geoni/myros2_ws/src/dtb_mobile_bringup'
+[0.622s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/dtb_mobile_cartographer': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/dtb_mobile_cartographer -- -j16 -l16
+[0.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/dtb_mobile_navigation': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/dtb_mobile_navigation -- -j16 -l16
+[0.841s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/geoni/myros2_ws/src/dtb_mobile_navigation2'
+[0.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.841s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/dtb_urdf': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/dtb_urdf -- -j16 -l16
+[0.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/my_diff_mobile': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/my_diff_mobile -- -j16 -l16
+[0.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/sllidar_ros2 -- -j16 -l16
+[0.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/geoni/myros2_ws/build/ugv_sdk -- -j16 -l16
+[0.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/dtb_mobile_cartographer' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/dtb_mobile_cartographer -- -j16 -l16
+[0.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/dtb_mobile_navigation' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/dtb_mobile_navigation -- -j16 -l16
+[0.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/tracer_msgs' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/tracer_msgs -- -j16 -l16
+[0.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/dtb_urdf' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/dtb_urdf -- -j16 -l16
+[0.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/my_diff_mobile' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/my_diff_mobile -- -j16 -l16
+[0.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/dtb_mobile_cartographer': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/dtb_mobile_cartographer
+[0.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/dtb_mobile_navigation': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/dtb_mobile_navigation
+[0.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/dtb_urdf': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/dtb_urdf
+[0.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dtb_mobile_cartographer)
+[0.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/my_diff_mobile': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/my_diff_mobile
+[0.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/dtb_mobile_cartographer' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/dtb_mobile_cartographer
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_cartographer' for CMake module files
+[0.937s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_cartographer' for CMake config files
+[0.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('dtb_mobile_cartographer', 'cmake_prefix_path')
+[0.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/hook/cmake_prefix_path.ps1'
+[0.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/hook/cmake_prefix_path.dsv'
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/hook/cmake_prefix_path.sh'
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/bin'
+[0.938s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/lib/pkgconfig/dtb_mobile_cartographer.pc'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/lib/python3.10/site-packages'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/bin'
+[0.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/package.ps1'
+[0.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/package.dsv'
+[0.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/package.sh'
+[0.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/package.bash'
+[0.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/package.zsh'
+[0.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/colcon-core/packages/dtb_mobile_cartographer)
+[0.943s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dtb_mobile_navigation)
+[0.943s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation' for CMake module files
+[0.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/dtb_mobile_navigation' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/dtb_mobile_navigation
+[0.944s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation' for CMake config files
+[0.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('dtb_mobile_navigation', 'cmake_prefix_path')
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/hook/cmake_prefix_path.ps1'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/hook/cmake_prefix_path.dsv'
+[0.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/hook/cmake_prefix_path.sh'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation/bin'
+[0.947s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation/lib/pkgconfig/dtb_mobile_navigation.pc'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation/lib/python3.10/site-packages'
+[0.948s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation/bin'
+[0.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/package.ps1'
+[0.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/package.dsv'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/package.sh'
+[0.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/package.bash'
+[0.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/package.zsh'
+[0.951s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/colcon-core/packages/dtb_mobile_navigation)
+[0.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/sllidar_ros2 -- -j16 -l16
+[0.955s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dtb_urdf)
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_urdf' for CMake module files
+[0.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/dtb_urdf' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/dtb_urdf
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_urdf' for CMake config files
+[0.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('dtb_urdf', 'cmake_prefix_path')
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/hook/cmake_prefix_path.ps1'
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/hook/cmake_prefix_path.dsv'
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/hook/cmake_prefix_path.sh'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_urdf/bin'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_urdf/lib/pkgconfig/dtb_urdf.pc'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_urdf/lib/python3.10/site-packages'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_urdf/bin'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/package.ps1'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/package.dsv'
+[0.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/package.sh'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/package.bash'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/package.zsh'
+[0.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/dtb_urdf/share/colcon-core/packages/dtb_urdf)
+[0.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_diff_mobile)
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/my_diff_mobile' for CMake module files
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/my_diff_mobile' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/my_diff_mobile
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/my_diff_mobile' for CMake config files
+[0.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_diff_mobile', 'cmake_prefix_path')
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/hook/cmake_prefix_path.ps1'
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/hook/cmake_prefix_path.dsv'
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/hook/cmake_prefix_path.sh'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/my_diff_mobile/bin'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/my_diff_mobile/lib/pkgconfig/my_diff_mobile.pc'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/my_diff_mobile/lib/python3.10/site-packages'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/my_diff_mobile/bin'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/package.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/package.dsv'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/package.sh'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/package.bash'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/package.zsh'
+[0.974s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/my_diff_mobile/share/colcon-core/packages/my_diff_mobile)
+[0.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dtb_mobile_navigation)
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation' for CMake module files
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation' for CMake config files
+[0.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('dtb_mobile_navigation', 'cmake_prefix_path')
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/hook/cmake_prefix_path.ps1'
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/hook/cmake_prefix_path.dsv'
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/hook/cmake_prefix_path.sh'
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation/bin'
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation/lib/pkgconfig/dtb_mobile_navigation.pc'
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation/lib/python3.10/site-packages'
+[0.982s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation/bin'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/package.ps1'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/package.dsv'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/package.sh'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/package.bash'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/dtb_mobile_navigation/package.zsh'
+[0.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/dtb_mobile_navigation/share/colcon-core/packages/dtb_mobile_navigation)
+[0.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dtb_mobile_cartographer)
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_cartographer' for CMake module files
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_cartographer' for CMake config files
+[0.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('dtb_mobile_cartographer', 'cmake_prefix_path')
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/hook/cmake_prefix_path.ps1'
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/hook/cmake_prefix_path.dsv'
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/hook/cmake_prefix_path.sh'
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/bin'
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/lib/pkgconfig/dtb_mobile_cartographer.pc'
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/lib/python3.10/site-packages'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/bin'
+[0.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/package.ps1'
+[0.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/package.dsv'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/package.sh'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/package.bash'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/dtb_mobile_cartographer/package.zsh'
+[0.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/dtb_mobile_cartographer/share/colcon-core/packages/dtb_mobile_cartographer)
+[0.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dtb_urdf)
+[0.997s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_urdf' for CMake module files
+[0.997s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_urdf' for CMake config files
+[0.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('dtb_urdf', 'cmake_prefix_path')
+[0.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/hook/cmake_prefix_path.ps1'
+[0.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/hook/cmake_prefix_path.dsv'
+[0.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/hook/cmake_prefix_path.sh'
+[1.000s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_urdf/bin'
+[1.000s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_urdf/lib/pkgconfig/dtb_urdf.pc'
+[1.000s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_urdf/lib/python3.10/site-packages'
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_urdf/bin'
+[1.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/package.ps1'
+[1.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/package.dsv'
+[1.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/package.sh'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/package.bash'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/package.zsh'
+[1.004s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/dtb_urdf/share/colcon-core/packages/dtb_urdf)
+[1.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/tracer_msgs': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/tracer_msgs
+[1.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_diff_mobile)
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/my_diff_mobile' for CMake module files
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/my_diff_mobile' for CMake config files
+[1.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_diff_mobile', 'cmake_prefix_path')
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/hook/cmake_prefix_path.ps1'
+[1.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/hook/cmake_prefix_path.dsv'
+[1.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/hook/cmake_prefix_path.sh'
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/my_diff_mobile/bin'
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/my_diff_mobile/lib/pkgconfig/my_diff_mobile.pc'
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/my_diff_mobile/lib/python3.10/site-packages'
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/my_diff_mobile/bin'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/package.ps1'
+[1.014s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/package.dsv'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/package.sh'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/package.bash'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/package.zsh'
+[1.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/my_diff_mobile/share/colcon-core/packages/my_diff_mobile)
+[1.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/ugv_sdk': /usr/bin/cmake --install /home/geoni/myros2_ws/build/ugv_sdk
+[1.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/sllidar_ros2
+[1.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/sllidar_ros2' for CMake module files
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/sllidar_ros2' for CMake config files
+[1.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/geoni/myros2_ws/build/ugv_sdk
+[1.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/sllidar_ros2
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/sllidar_ros2/lib'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/sllidar_ros2/bin'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[1.061s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/sllidar_ros2/bin'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.073s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracer_msgs)
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_msgs' for CMake module files
+[1.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/tracer_msgs' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/tracer_msgs
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_msgs' for CMake config files
+[1.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_msgs', 'cmake_prefix_path')
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/hook/cmake_prefix_path.ps1'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/hook/cmake_prefix_path.dsv'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/hook/cmake_prefix_path.sh'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_msgs/lib'
+[1.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_msgs', 'ld_library_path_lib')
+[1.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/hook/ld_library_path_lib.ps1'
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/hook/ld_library_path_lib.dsv'
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/hook/ld_library_path_lib.sh'
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_msgs/bin'
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_msgs/lib/pkgconfig/tracer_msgs.pc'
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_msgs/lib/python3.10/site-packages'
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_msgs/bin'
+[1.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/package.ps1'
+[1.082s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/package.dsv'
+[1.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/package.sh'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/package.bash'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/package.zsh'
+[1.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/tracer_msgs/share/colcon-core/packages/tracer_msgs)
+[1.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'ros_package_path')
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.ps1'
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.dsv'
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/hook/ros_package_path.sh'
+[1.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'pkg_config_path')
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.ps1'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.dsv'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path.sh'
+[1.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'pkg_config_path_multiarch')
+[1.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.ps1'
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.dsv'
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/hook/pkg_config_path_multiarch.sh'
+[1.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_sdk)
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/ugv_sdk' for CMake module files
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/ugv_sdk' for CMake config files
+[1.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sdk', 'cmake_prefix_path')
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.ps1'
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.dsv'
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/hook/cmake_prefix_path.sh'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/ugv_sdk/lib'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/ugv_sdk/bin'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/ugv_sdk/lib/pkgconfig/ugv_sdk.pc'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/ugv_sdk/lib/python3.10/site-packages'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/ugv_sdk/bin'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/package.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/package.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/package.sh'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/package.bash'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/ugv_sdk/share/ugv_sdk/package.zsh'
+[1.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/ugv_sdk/share/colcon-core/packages/ugv_sdk)
+[1.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/sllidar_ros2' for CMake module files
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/sllidar_ros2' for CMake config files
+[1.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/sllidar_ros2/lib'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/sllidar_ros2/bin'
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/sllidar_ros2/bin'
+[1.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.131s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.195s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracer_msgs)
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_msgs' for CMake module files
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_msgs' for CMake config files
+[1.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_msgs', 'cmake_prefix_path')
+[1.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/hook/cmake_prefix_path.ps1'
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/hook/cmake_prefix_path.dsv'
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/hook/cmake_prefix_path.sh'
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_msgs/lib'
+[1.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_msgs', 'ld_library_path_lib')
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/hook/ld_library_path_lib.ps1'
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/hook/ld_library_path_lib.dsv'
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/hook/ld_library_path_lib.sh'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_msgs/bin'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_msgs/lib/pkgconfig/tracer_msgs.pc'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_msgs/lib/python3.10/site-packages'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_msgs/bin'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/package.ps1'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/package.dsv'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/package.sh'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/package.bash'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/package.zsh'
+[1.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/tracer_msgs/share/colcon-core/packages/tracer_msgs)
+[1.205s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/geoni/myros2_ws/src/tracer_ros2/tracer_base' with build type 'ament_cmake'
+[1.206s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/geoni/myros2_ws/src/tracer_ros2/tracer_base'
+[1.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/tracer_base': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/tracer_base -- -j16 -l16
+[1.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/src/dtb_mobile_bringup': PYTHONPATH=/home/geoni/myros2_ws/build/dtb_mobile_bringup/prefix_override:/home/geoni/myros2_ws/install/dtb_mobile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dtb_mobile_bringup build --build-base /home/geoni/myros2_ws/build/dtb_mobile_bringup/build install --record /home/geoni/myros2_ws/build/dtb_mobile_bringup/install.log --single-version-externally-managed install_data
+[1.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/src/dtb_mobile_navigation2': PYTHONPATH=/home/geoni/myros2_ws/build/dtb_mobile_navigation2/prefix_override:/home/geoni/myros2_ws/install/dtb_mobile_navigation2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dtb_mobile_navigation2 build --build-base /home/geoni/myros2_ws/build/dtb_mobile_navigation2/build install --record /home/geoni/myros2_ws/build/dtb_mobile_navigation2/install.log --single-version-externally-managed install_data
+[1.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/tracer_base' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/tracer_base -- -j16 -l16
+[1.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/geoni/myros2_ws/build/tracer_base': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/tracer_base
+[1.319s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracer_base)
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_base' for CMake module files
+[1.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/build/tracer_base' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/tracer_base
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_base' for CMake config files
+[1.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_base', 'cmake_prefix_path')
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/hook/cmake_prefix_path.ps1'
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/hook/cmake_prefix_path.dsv'
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/hook/cmake_prefix_path.sh'
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_base/lib'
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_base/bin'
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_base/lib/pkgconfig/tracer_base.pc'
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_base/lib/python3.10/site-packages'
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_base/bin'
+[1.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/package.ps1'
+[1.323s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/package.dsv'
+[1.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/package.sh'
+[1.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/package.bash'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/package.zsh'
+[1.325s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/tracer_base/share/colcon-core/packages/tracer_base)
+[1.347s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracer_base)
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_base' for CMake module files
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_base' for CMake config files
+[1.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracer_base', 'cmake_prefix_path')
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/hook/cmake_prefix_path.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/hook/cmake_prefix_path.dsv'
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/hook/cmake_prefix_path.sh'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_base/lib'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_base/bin'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_base/lib/pkgconfig/tracer_base.pc'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_base/lib/python3.10/site-packages'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/tracer_base/bin'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/package.ps1'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/package.dsv'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/package.sh'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/package.bash'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/tracer_base/share/tracer_base/package.zsh'
+[1.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/tracer_base/share/colcon-core/packages/tracer_base)
+[1.482s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_bringup' for CMake module files
+[1.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/src/dtb_mobile_bringup' returned '0': PYTHONPATH=/home/geoni/myros2_ws/build/dtb_mobile_bringup/prefix_override:/home/geoni/myros2_ws/install/dtb_mobile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dtb_mobile_bringup build --build-base /home/geoni/myros2_ws/build/dtb_mobile_bringup/build install --record /home/geoni/myros2_ws/build/dtb_mobile_bringup/install.log --single-version-externally-managed install_data
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_bringup' for CMake config files
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_bringup/lib'
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_bringup/bin'
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_bringup/lib/pkgconfig/dtb_mobile_bringup.pc'
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_bringup/lib/python3.10/site-packages'
+[1.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('dtb_mobile_bringup', 'pythonpath')
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/hook/pythonpath.ps1'
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/hook/pythonpath.dsv'
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/hook/pythonpath.sh'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_bringup/bin'
+[1.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dtb_mobile_bringup)
+[1.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/package.ps1'
+[1.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/package.dsv'
+[1.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/package.sh'
+[1.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/package.bash'
+[1.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/package.zsh'
+[1.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/dtb_mobile_bringup/share/colcon-core/packages/dtb_mobile_bringup)
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation2' for CMake module files
+[1.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/geoni/myros2_ws/src/dtb_mobile_navigation2' returned '0': PYTHONPATH=/home/geoni/myros2_ws/build/dtb_mobile_navigation2/prefix_override:/home/geoni/myros2_ws/install/dtb_mobile_navigation2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dtb_mobile_navigation2 build --build-base /home/geoni/myros2_ws/build/dtb_mobile_navigation2/build install --record /home/geoni/myros2_ws/build/dtb_mobile_navigation2/install.log --single-version-externally-managed install_data
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation2' for CMake config files
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/lib'
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/bin'
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/lib/pkgconfig/dtb_mobile_navigation2.pc'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/lib/python3.10/site-packages'
+[1.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('dtb_mobile_navigation2', 'pythonpath')
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/share/dtb_mobile_navigation2/hook/pythonpath.ps1'
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/share/dtb_mobile_navigation2/hook/pythonpath.dsv'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/share/dtb_mobile_navigation2/hook/pythonpath.sh'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/bin'
+[1.508s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dtb_mobile_navigation2)
+[1.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/share/dtb_mobile_navigation2/package.ps1'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/share/dtb_mobile_navigation2/package.dsv'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/share/dtb_mobile_navigation2/package.sh'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/share/dtb_mobile_navigation2/package.bash'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/geoni/myros2_ws/install/dtb_mobile_navigation2/share/dtb_mobile_navigation2/package.zsh'
+[1.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/geoni/myros2_ws/install/dtb_mobile_navigation2/share/colcon-core/packages/dtb_mobile_navigation2)
+[1.510s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.511s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.511s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.511s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.517s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.517s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.517s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.529s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.529s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/geoni/myros2_ws/install/local_setup.ps1'
+[1.530s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/geoni/myros2_ws/install/_local_setup_util_ps1.py'
+[1.532s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/geoni/myros2_ws/install/setup.ps1'
+[1.535s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/geoni/myros2_ws/install/local_setup.sh'
+[1.536s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/geoni/myros2_ws/install/_local_setup_util_sh.py'
+[1.537s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/geoni/myros2_ws/install/setup.sh'
+[1.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/geoni/myros2_ws/install/local_setup.bash'
+[1.542s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/geoni/myros2_ws/install/setup.bash'
+[1.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/geoni/myros2_ws/install/local_setup.zsh'
+[1.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/geoni/myros2_ws/install/setup.zsh'

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/dtb_mobile_navigation2/dtb_mobile_navigation2.egg-info/PKG-INFO
+../../build/dtb_mobile_navigation2/dtb_mobile_navigation2.egg-info/SOURCES.txt
+../../build/dtb_mobile_navigation2/dtb_mobile_navigation2.egg-info/dependency_links.txt
+../../build/dtb_mobile_navigation2/dtb_mobile_navigation2.egg-info/entry_points.txt
+../../build/dtb_mobile_navigation2/dtb_mobile_navigation2.egg-info/requires.txt
+../../build/dtb_mobile_navigation2/dtb_mobile_navigation2.egg-info/top_level.txt
+../../build/dtb_mobile_navigation2/dtb_mobile_navigation2.egg-info/zip-safe
+dtb_mobile_navigation2/__init__.py
+resource/dtb_mobile_navigation2
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

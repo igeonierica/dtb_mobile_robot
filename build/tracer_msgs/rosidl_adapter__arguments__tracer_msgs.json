@@ -1,0 +1,10 @@
+{
+  "package_name": "tracer_msgs",
+  "non_idl_tuples": [
+    "/home/geoni/myros2_ws/src/tracer_ros2/tracer_msgs:msg/TracerActuatorState.msg",
+    "/home/geoni/myros2_ws/src/tracer_ros2/tracer_msgs:msg/TracerLightCmd.msg",
+    "/home/geoni/myros2_ws/src/tracer_ros2/tracer_msgs:msg/TracerLightState.msg",
+    "/home/geoni/myros2_ws/src/tracer_ros2/tracer_msgs:msg/TracerRCState.msg",
+    "/home/geoni/myros2_ws/src/tracer_ros2/tracer_msgs:msg/TracerStatus.msg"
+  ]
+}

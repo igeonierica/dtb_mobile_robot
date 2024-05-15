@@ -1,0 +1,87 @@
+[0.012s] Invoking command in '/home/geoni/myros2_ws/build/tracer_base': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake /home/geoni/myros2_ws/src/tracer_ros2/tracer_base -DCMAKE_INSTALL_PREFIX=/home/geoni/myros2_ws/install/tracer_base
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.128s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.265s] -- Detecting CXX compiler ABI info - done
+[0.273s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.273s] -- Detecting CXX compile features
+[0.273s] -- Detecting CXX compile features - done
+[0.275s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.427s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.542s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.596s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.605s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.618s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.715s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.717s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.801s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.831s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.881s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.890s] -- Looking for pthread.h
+[0.953s] -- Looking for pthread.h - found
+[0.953s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.022s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.023s] -- Found Threads: TRUE  
+[1.177s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.210s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.279s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.358s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[1.371s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.647s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.662s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.663s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.663s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.671s] -- Found tracer_msgs: 0.1.0 (/home/geoni/myros2_ws/install/tracer_msgs/share/tracer_msgs/cmake)
+[1.721s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.790s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.791s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.791s] -- Configured cppcheck include dirs: /home/geoni/myros2_ws/src/tracer_ros2/tracer_base/include
+[1.791s] -- Configured cppcheck exclude dirs and/or files: 
+[1.792s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.792s] -- Configured cpplint exclude dirs and/or files: 
+[1.793s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.793s] -- Added test 'lint_cmake' to check CMake code style
+[1.793s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.794s] -- Added test 'uncrustify' to check C / C++ code style
+[1.794s] -- Configured uncrustify additional arguments: 
+[1.794s] -- Added test 'xmllint' to check XML markup files
+[1.796s] -- Configuring done
+[1.807s] -- Generating done
+[1.808s] -- Build files have been written to: /home/geoni/myros2_ws/build/tracer_base
+[1.817s] Invoked command in '/home/geoni/myros2_ws/build/tracer_base' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake /home/geoni/myros2_ws/src/tracer_ros2/tracer_base -DCMAKE_INSTALL_PREFIX=/home/geoni/myros2_ws/install/tracer_base
+[1.818s] Invoking command in '/home/geoni/myros2_ws/build/tracer_base': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/tracer_base -- -j16 -l16
+[1.865s] [ 66%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_ros.cpp.o[0m
+[1.865s] [ 66%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_node.cpp.o[0m
+[11.914s] [100%] [32m[1mLinking CXX executable tracer_base_node[0m
+[12.444s] [100%] Built target tracer_base_node
+[12.455s] Invoked command in '/home/geoni/myros2_ws/build/tracer_base' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/tracer_base -- -j16 -l16
+[12.479s] Invoking command in '/home/geoni/myros2_ws/build/tracer_base': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/tracer_base
+[12.485s] -- Install configuration: ""
+[12.485s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/lib/tracer_base/tracer_base_node
+[12.488s] -- Set runtime path of "/home/geoni/myros2_ws/install/tracer_base/lib/tracer_base/tracer_base_node" to ""
+[12.488s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base//launch
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base//launch/tracer_base.launch.py
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base//launch/tracer_mini_base.launch.py
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/ament_index/resource_index/package_run_dependencies/tracer_base
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/ament_index/resource_index/parent_prefix_path/tracer_base
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.sh
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base/environment/ament_prefix_path.dsv
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base/environment/path.sh
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base/environment/path.dsv
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base/local_setup.bash
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base/local_setup.sh
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base/local_setup.zsh
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base/local_setup.dsv
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base/package.dsv
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/ament_index/resource_index/packages/tracer_base
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig.cmake
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig-version.cmake
+[12.489s] -- Installing: /home/geoni/myros2_ws/install/tracer_base/share/tracer_base/package.xml
+[12.491s] Invoked command in '/home/geoni/myros2_ws/build/tracer_base' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/tracer_base

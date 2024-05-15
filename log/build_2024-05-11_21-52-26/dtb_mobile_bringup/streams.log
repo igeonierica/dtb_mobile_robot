@@ -1,0 +1,43 @@
+[1.291s] Invoking command in '/home/geoni/myros2_ws/src/dtb_mobile_bringup': PYTHONPATH=/home/geoni/myros2_ws/build/dtb_mobile_bringup/prefix_override:/home/geoni/myros2_ws/install/dtb_mobile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dtb_mobile_bringup build --build-base /home/geoni/myros2_ws/build/dtb_mobile_bringup/build install --record /home/geoni/myros2_ws/build/dtb_mobile_bringup/install.log --single-version-externally-managed install_data
+[1.629s] running egg_info
+[1.630s] creating ../../build/dtb_mobile_bringup/dtb_mobile_bringup.egg-info
+[1.631s] writing ../../build/dtb_mobile_bringup/dtb_mobile_bringup.egg-info/PKG-INFO
+[1.631s] writing dependency_links to ../../build/dtb_mobile_bringup/dtb_mobile_bringup.egg-info/dependency_links.txt
+[1.631s] writing entry points to ../../build/dtb_mobile_bringup/dtb_mobile_bringup.egg-info/entry_points.txt
+[1.632s] writing requirements to ../../build/dtb_mobile_bringup/dtb_mobile_bringup.egg-info/requires.txt
+[1.632s] writing top-level names to ../../build/dtb_mobile_bringup/dtb_mobile_bringup.egg-info/top_level.txt
+[1.632s] writing manifest file '../../build/dtb_mobile_bringup/dtb_mobile_bringup.egg-info/SOURCES.txt'
+[1.635s] reading manifest file '../../build/dtb_mobile_bringup/dtb_mobile_bringup.egg-info/SOURCES.txt'
+[1.637s] writing manifest file '../../build/dtb_mobile_bringup/dtb_mobile_bringup.egg-info/SOURCES.txt'
+[1.637s] running build
+[1.637s] running build_py
+[1.638s] creating /home/geoni/myros2_ws/build/dtb_mobile_bringup/build
+[1.638s] creating /home/geoni/myros2_ws/build/dtb_mobile_bringup/build/lib
+[1.638s] creating /home/geoni/myros2_ws/build/dtb_mobile_bringup/build/lib/dtb_mobile_bringup
+[1.638s] copying dtb_mobile_bringup/__init__.py -> /home/geoni/myros2_ws/build/dtb_mobile_bringup/build/lib/dtb_mobile_bringup
+[1.638s] running install
+[1.638s] running install_lib
+[1.640s] creating /home/geoni/myros2_ws/install/dtb_mobile_bringup/lib/python3.10/site-packages/dtb_mobile_bringup
+[1.640s] copying /home/geoni/myros2_ws/build/dtb_mobile_bringup/build/lib/dtb_mobile_bringup/__init__.py -> /home/geoni/myros2_ws/install/dtb_mobile_bringup/lib/python3.10/site-packages/dtb_mobile_bringup
+[1.641s] byte-compiling /home/geoni/myros2_ws/install/dtb_mobile_bringup/lib/python3.10/site-packages/dtb_mobile_bringup/__init__.py to __init__.cpython-310.pyc
+[1.642s] running install_data
+[1.642s] creating /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/ament_index
+[1.642s] creating /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/ament_index/resource_index
+[1.642s] creating /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/ament_index/resource_index/packages
+[1.643s] copying resource/dtb_mobile_bringup -> /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/ament_index/resource_index/packages
+[1.643s] copying package.xml -> /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup
+[1.643s] creating /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/launch
+[1.643s] copying launch/dtb_mobile_description2.launch.py -> /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/launch
+[1.643s] copying launch/dtb_mobile_description3.launch.py -> /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/launch
+[1.643s] copying launch/tracer_base.launch.py -> /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/launch
+[1.643s] copying launch/dtb_mobile_description.launch.py -> /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/launch
+[1.643s] copying launch/view_mapping_dtb_mobile.launch.py -> /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/launch
+[1.644s] creating /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/rviz
+[1.644s] copying rviz/rviz.rviz -> /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/rviz
+[1.644s] copying rviz/view_rviz.rviz -> /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/rviz
+[1.644s] copying rviz/tracer_bringup_rviz.rviz -> /home/geoni/myros2_ws/install/dtb_mobile_bringup/share/dtb_mobile_bringup/rviz
+[1.644s] running install_egg_info
+[1.647s] Copying ../../build/dtb_mobile_bringup/dtb_mobile_bringup.egg-info to /home/geoni/myros2_ws/install/dtb_mobile_bringup/lib/python3.10/site-packages/dtb_mobile_bringup-0.0.0-py3.10.egg-info
+[1.648s] running install_scripts
+[1.678s] writing list of installed files to '/home/geoni/myros2_ws/build/dtb_mobile_bringup/install.log'
+[1.745s] Invoked command in '/home/geoni/myros2_ws/src/dtb_mobile_bringup' returned '0': PYTHONPATH=/home/geoni/myros2_ws/build/dtb_mobile_bringup/prefix_override:/home/geoni/myros2_ws/install/dtb_mobile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dtb_mobile_bringup build --build-base /home/geoni/myros2_ws/build/dtb_mobile_bringup/build install --record /home/geoni/myros2_ws/build/dtb_mobile_bringup/install.log --single-version-externally-managed install_data

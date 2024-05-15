@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/robotdevelop/ros2_ws/install/turtlesim/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/robotdevelop/ros2_ws/src/my_diff_mobile/include/**",
+        "/home/robotdevelop/ros2_ws/src/urdf_simple_arm/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

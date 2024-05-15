@@ -1,0 +1,569 @@
+[0.611s] Invoking command in '/home/geoni/myros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake /home/geoni/myros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/geoni/myros2_ws/install/sllidar_ros2
+[0.685s] -- The C compiler identification is GNU 11.4.0
+[0.821s] -- The CXX compiler identification is GNU 11.4.0
+[0.838s] -- Detecting C compiler ABI info
+[1.022s] -- Detecting C compiler ABI info - done
+[1.033s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.033s] -- Detecting C compile features
+[1.034s] -- Detecting C compile features - done
+[1.039s] -- Detecting CXX compiler ABI info
+[1.176s] -- Detecting CXX compiler ABI info - done
+[1.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.193s] -- Detecting CXX compile features
+[1.194s] -- Detecting CXX compile features - done
+[1.200s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.470s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.593s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.662s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.672s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.690s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.717s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.847s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.850s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.017s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.050s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.125s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.141s] -- Looking for pthread.h
+[2.243s] -- Looking for pthread.h - found
+[2.243s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.356s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.359s] -- Found Threads: TRUE  
+[2.622s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.821s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[2.909s] -- Configuring done
+[2.932s] -- Generating done
+[2.934s] -- Build files have been written to: /home/geoni/myros2_ws/build/sllidar_ros2
+[2.946s] Invoked command in '/home/geoni/myros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake /home/geoni/myros2_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/geoni/myros2_ws/install/sllidar_ros2
+[2.947s] Invoking command in '/home/geoni/myros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/sllidar_ros2 -- -j16 -l16
+[2.993s] [  5%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[2.993s] [ 10%] [32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o[0m
+[2.994s] [ 20%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o[0m
+[2.994s] [ 20%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/dataunpacker.cpp.o[0m
+[2.994s] [ 25%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[2.995s] [ 30%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[2.997s] [ 35%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[3.006s] [ 40%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o[0m
+[3.037s] [ 45%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o[0m
+[3.046s] [ 50%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[3.058s] [ 55%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_async_transceiver.cpp.o[0m
+[3.064s] [ 60%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o[0m
+[3.070s] [ 65%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o[0m
+[3.132s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[3.132s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[3.132s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[3.132s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.132s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[3.132s]       |                [01;35m[K^[m[K
+[3.132s] [ 70%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[3.132s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[3.132s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[3.133s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.133s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[3.133s]       |                    [01;35m[K^[m[K
+[3.145s] [ 80%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[3.146s] [ 75%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidarprotocol_codec.cpp.o[0m
+[3.213s] [ 85%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[3.512s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[3.513s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[3.513s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[3.513s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[3.513s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.513s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[3.513s]       |                [01;35m[K^[m[K
+[3.514s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[3.514s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[3.514s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[3.515s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[3.515s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.515s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[3.515s]       |                    [01;35m[K^[m[K
+[3.575s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[3.575s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[3.575s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[3.576s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[3.576s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[3.576s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.576s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[3.576s]       |                [01;35m[K^[m[K
+[3.576s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[3.576s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[3.576s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[3.576s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[3.576s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[3.576s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.576s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[3.576s]       |                    [01;35m[K^[m[K
+[3.595s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[3.595s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:41[m[K,
+[3.595s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[3.596s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)[m[K’:
+[3.596s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:733:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.596s]   733 |             assert([01;35m[Kans == len[m[K);
+[3.596s]       |                    [01;35m[K~~~~^~~~~~[m[K
+[3.636s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[3.636s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[3.636s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33[m[K:
+[3.636s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.636s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[3.637s]       |                [01;35m[K^[m[K
+[3.641s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[3.641s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33[m[K:
+[3.641s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.641s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[3.641s]       |                    [01;35m[K^[m[K
+[3.733s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[3.733s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[3.733s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[3.733s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[3.733s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.733s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[3.733s]       |                [01;35m[K^[m[K
+[3.733s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[3.733s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[3.733s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[3.734s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[3.734s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.734s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[3.734s]       |                    [01;35m[K^[m[K
+[3.744s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[3.744s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[3.744s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[3.744s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[3.744s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.744s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[3.744s]       |                [01;35m[K^[m[K
+[3.745s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[3.745s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[3.745s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[3.745s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[3.745s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.745s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[3.745s]       |                    [01;35m[K^[m[K
+[3.765s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[3.765s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.765s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[3.766s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[3.767s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[3.767s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.767s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[3.767s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[3.768s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[3.768s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.768s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[3.768s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[3.769s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[3.769s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.769s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[3.769s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[3.773s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::cancelOperation()[m[K’:
+[3.773s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:427:5:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.773s]   427 |     [01;35m[K(int)::write(_selfpipe[1], "x", 1)[m[K;
+[3.773s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.788s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[3.788s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[3.788s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[3.788s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[3.789s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.789s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[3.789s]       |                [01;35m[K^[m[K
+[3.789s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[3.789s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[3.789s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[3.789s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[3.789s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.789s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[3.789s]       |                    [01;35m[K^[m[K
+[3.815s] [ 90%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[3.874s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:44[m[K:
+[3.874s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[3.874s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.874s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[3.874s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[3.902s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[3.902s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[3.902s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[3.902s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.902s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[3.902s]       |                [01;35m[K^[m[K
+[3.903s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[3.903s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[3.903s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.903s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[3.903s]       |                    [01;35m[K^[m[K
+[3.903s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:40[m[K:
+[3.904s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[3.904s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.904s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[3.904s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[3.904s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.904s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[3.904s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[3.904s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.904s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[3.904s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[3.904s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.904s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[3.904s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[3.904s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[3.905s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.905s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[3.905s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[3.905s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.905s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[3.905s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[3.905s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.905s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[3.905s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[3.905s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.905s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[3.905s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[3.909s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[3.909s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:109:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.910s]   109 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[3.910s]       |                        [01;35m[K~~~~~^~~~[m[K
+[3.930s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[3.931s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[3.931s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[3.931s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[3.931s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.931s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[3.931s]       |                [01;35m[K^[m[K
+[3.931s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[3.931s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[3.931s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[3.931s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[3.931s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.932s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[3.932s]       |                    [01;35m[K^[m[K
+[3.942s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[3.942s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[3.943s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[3.943s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[3.943s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[3.943s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.943s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[3.943s]       |                [01;35m[K^[m[K
+[3.943s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[3.943s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[3.943s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[3.944s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[3.944s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[3.944s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.944s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[3.944s]       |                    [01;35m[K^[m[K
+[3.945s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:[m[K In member function ‘[01m[Kvoid sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::_onScanNodeDenseCapsuleData(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)[m[K’:
+[3.945s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:30:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[3.945s]   763 |             const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[3.945s]       |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.043s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[4.043s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.043s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[4.043s]       |                                                                        [01;35m[K~~~~~^~~~[m[K
+[4.043s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[4.043s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.044s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[4.044s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[4.044s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[4.044s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.044s]   180 |     u_result RPlidarDriver::getScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[4.044s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[4.051s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.051s]   180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[4.051s]       |                                                                                                       [01;35m[K~~~~~~~~~^~~~~[m[K
+[4.093s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[4.094s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[4.094s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[4.094s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[4.094s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[4.094s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.094s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[4.094s]       |                [01;35m[K^[m[K
+[4.094s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[4.094s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[4.094s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[4.094s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[4.094s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[4.094s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.095s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[4.095s]       |                    [01;35m[K^[m[K
+[4.102s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:49[m[K:
+[4.102s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[4.102s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.102s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[4.102s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[4.117s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[4.117s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[4.117s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[4.117s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[4.118s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.118s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[4.118s]       |                [01;35m[K^[m[K
+[4.118s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[4.118s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[4.118s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[4.118s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[4.118s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.118s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[4.118s]       |                    [01;35m[K^[m[K
+[4.158s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[4.158s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[4.158s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[4.158s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[4.158s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[4.158s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.158s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[4.158s]       |                [01;35m[K^[m[K
+[4.158s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[4.158s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[4.158s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[4.159s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[4.159s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[4.159s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.159s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[4.159s]       |                    [01;35m[K^[m[K
+[4.193s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/hal/thread.cpp:43[m[K:
+[4.193s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[4.194s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:52:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[4.194s]    52 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[4.194s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.195s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[4.195s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:176:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.195s]   176 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[4.195s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.223s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:40[m[K:
+[4.223s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[4.223s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.223s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[4.223s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[4.223s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.223s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[4.223s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[4.223s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.223s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[4.223s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[4.223s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.223s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[4.223s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[4.224s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[4.224s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.224s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[4.224s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[4.224s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.224s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[4.224s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[4.224s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.224s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[4.224s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[4.224s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.224s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[4.224s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[4.242s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[4.242s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[4.242s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33[m[K:
+[4.242s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.243s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[4.243s]       |                [01;35m[K^[m[K
+[4.243s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[4.243s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33[m[K:
+[4.243s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.243s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[4.243s]       |                    [01;35m[K^[m[K
+[4.249s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[4.249s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:112:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.249s]   112 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[4.249s]       |                        [01;35m[K~~~~~^~~~[m[K
+[4.390s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:40[m[K:
+[4.390s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[4.390s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.390s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[4.390s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[4.390s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.390s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[4.391s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[4.391s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.391s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[4.391s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[4.391s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.391s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[4.391s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[4.391s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[4.391s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.391s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[4.391s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[4.391s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.391s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[4.392s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[4.392s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.392s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[4.392s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[4.392s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.392s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[4.392s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[4.451s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:50[m[K:
+[4.451s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[4.451s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.452s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[4.452s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[4.452s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.452s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[4.452s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[4.452s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.452s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[4.452s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[4.452s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.452s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[4.452s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[4.452s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[4.452s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.452s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[4.453s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[4.453s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.453s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[4.453s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[4.453s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.453s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[4.453s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[4.453s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.453s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[4.453s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[4.462s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:51[m[K:
+[4.462s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::onChannelError(u_result)[m[K’:
+[4.462s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.463s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[4.463s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[4.469s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:40[m[K:
+[4.470s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)[m[K’:
+[4.470s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.470s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[4.470s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[4.470s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.470s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[4.470s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[4.470s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.470s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[4.470s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[4.471s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.471s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[4.471s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[4.471s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)[m[K’:
+[4.471s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.471s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[4.471s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[4.471s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.471s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[4.471s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[4.471s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.472s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[4.472s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[4.472s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.472s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[4.472s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[4.490s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[4.491s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:511:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.491s]   511 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[4.491s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.496s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[4.496s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:586:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.497s]   586 |         sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[4.497s]       |                                                              [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[4.499s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[4.500s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:763:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.500s]   763 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[4.500s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.502s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[4.503s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:880:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.503s]   880 |         sl_result getFrequency(const LidarScanMode& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[4.503s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.506s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[4.506s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1023:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.506s]  1023 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[4.507s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[4.508s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Ku_result sl::SlamtecLidarDriver::getScanModeCount(sl_u16&, sl_u32)[m[K’:
+[4.508s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1199:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.508s]  1199 |         u_result getScanModeCount(sl_u16& modeCount, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[4.508s]       |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.556s] /home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In instantiation of ‘[01m[Kvoid sl::RawSampleNodeHolder<T>::pushNode(_u64, const T*) [with T = sl_lidar_response_measurement_node_hq_t; _u64 = long unsigned int][m[K’:
+[4.557s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1648:42:[m[K   required from here
+[4.557s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:202:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimestamp_uS[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.557s]   202 |         void pushNode([01;35m[K_u64 timestamp_uS[m[K, const T* node)
+[4.557s]       |                       [01;35m[K~~~~~^~~~~~~~~~~~[m[K
+[4.723s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[4.723s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:83:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[4.723s]    83 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[4.723s]       |                 [01;35m[K^~~~~~~[m[K
+[4.723s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:75:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_t&, sl_lidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[4.723s]    75 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_t& from, sl_lidar_response_measurement_node_hq_t& to)
+[4.723s]       |                 [01;35m[K^~~~~~~[m[K
+[4.724s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:70:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[4.724s]    70 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[4.724s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.533s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[6.534s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[6.534s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[6.534s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[6.534s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.534s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[6.535s]       |                [01;35m[K^[m[K
+[6.536s] In file included from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[6.536s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[6.536s]                  from [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[6.536s] [01m[K/home/geoni/myros2_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.537s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[6.537s]       |                    [01;35m[K^[m[K
+[9.494s] [ 95%] [32m[1mLinking CXX executable sllidar_node[0m
+[9.744s] [ 95%] Built target sllidar_node
+[12.587s] [100%] [32m[1mLinking CXX executable sllidar_client[0m
+[12.906s] [100%] Built target sllidar_client
+[12.918s] Invoked command in '/home/geoni/myros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/sllidar_ros2 -- -j16 -l16
+[12.971s] Invoking command in '/home/geoni/myros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/sllidar_ros2
+[12.977s] -- Install configuration: ""
+[12.977s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch
+[12.977s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[12.977s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[12.977s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[12.977s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[12.977s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[12.978s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[12.978s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[12.978s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[12.978s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[12.978s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[12.978s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[12.978s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[12.978s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[12.978s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[12.978s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[12.978s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[12.978s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[12.979s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[12.979s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[12.979s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[12.979s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[12.979s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[12.979s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[12.979s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[12.979s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz
+[12.979s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[12.979s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[12.980s] -- Set runtime path of "/home/geoni/myros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node" to ""
+[12.980s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[12.983s] -- Set runtime path of "/home/geoni/myros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client" to ""
+[12.983s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[12.983s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[12.983s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[12.983s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[12.983s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[12.983s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[12.983s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[12.983s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[12.983s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[12.984s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[12.984s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[12.984s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[12.984s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.984s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.984s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[12.984s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[12.984s] -- Installing: /home/geoni/myros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[12.986s] Invoked command in '/home/geoni/myros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/sllidar_ros2

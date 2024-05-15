@@ -1,0 +1,28 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/robotdevelop/ros2_ws/build/ui_send_receive",
+        "/home/robotdevelop/ros2_ws/install/ui_send_receive/lib/python3.10/site-packages",
+        "/home/robotdevelop/ros2_ws/build/pose_navi",
+        "/home/robotdevelop/ros2_ws/install/pose_navi/lib/python3.10/site-packages",
+        "/home/robotdevelop/ros2_ws/install/ui_send_receive_msgs/local/lib/python3.10/dist-packages",
+        "/home/robotdevelop/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages",
+        "/home/robotdevelop/ros2_ws/build/tetra_teleop",
+        "/home/robotdevelop/ros2_ws/install/tetra_teleop/lib/python3.10/site-packages",
+        "/home/robotdevelop/ros2_ws/install/tetra_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/robotdevelop/ros2_ws/build/ui_send_receive",
+        "/home/robotdevelop/ros2_ws/install/ui_send_receive/lib/python3.10/site-packages",
+        "/home/robotdevelop/ros2_ws/build/pose_navi",
+        "/home/robotdevelop/ros2_ws/install/pose_navi/lib/python3.10/site-packages",
+        "/home/robotdevelop/ros2_ws/install/ui_send_receive_msgs/local/lib/python3.10/dist-packages",
+        "/home/robotdevelop/ros2_ws/install/tracer_msgs/local/lib/python3.10/dist-packages",
+        "/home/robotdevelop/ros2_ws/build/tetra_teleop",
+        "/home/robotdevelop/ros2_ws/install/tetra_teleop/lib/python3.10/site-packages",
+        "/home/robotdevelop/ros2_ws/install/tetra_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

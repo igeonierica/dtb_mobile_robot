@@ -1,0 +1,91 @@
+[0.592s] Invoking command in '/home/geoni/myros2_ws/build/my_diff_mobile': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake /home/geoni/myros2_ws/src/my_diff_mobile -DCMAKE_INSTALL_PREFIX=/home/geoni/myros2_ws/install/my_diff_mobile
+[0.657s] -- The C compiler identification is GNU 11.4.0
+[0.754s] -- The CXX compiler identification is GNU 11.4.0
+[0.768s] -- Detecting C compiler ABI info
+[0.941s] -- Detecting C compiler ABI info - done
+[0.952s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.953s] -- Detecting C compile features
+[0.954s] -- Detecting C compile features - done
+[0.964s] -- Detecting CXX compiler ABI info
+[1.127s] -- Detecting CXX compiler ABI info - done
+[1.138s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.139s] -- Detecting CXX compile features
+[1.139s] -- Detecting CXX compile features - done
+[1.143s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.440s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.569s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.706s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.709s] -- Added test 'lint_cmake' to check CMake code style
+[1.711s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.720s] -- Added test 'xmllint' to check XML markup files
+[1.720s] -- Configuring done
+[1.723s] -- Generating done
+[1.723s] -- Build files have been written to: /home/geoni/myros2_ws/build/my_diff_mobile
+[1.729s] Invoked command in '/home/geoni/myros2_ws/build/my_diff_mobile' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake /home/geoni/myros2_ws/src/my_diff_mobile -DCMAKE_INSTALL_PREFIX=/home/geoni/myros2_ws/install/my_diff_mobile
+[1.730s] Invoking command in '/home/geoni/myros2_ws/build/my_diff_mobile': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/my_diff_mobile -- -j16 -l16
+[1.793s] Invoked command in '/home/geoni/myros2_ws/build/my_diff_mobile' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/my_diff_mobile -- -j16 -l16
+[1.821s] Invoking command in '/home/geoni/myros2_ws/build/my_diff_mobile': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/my_diff_mobile
+[1.831s] -- Install configuration: ""
+[1.831s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description
+[1.831s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/meshes
+[1.831s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/meshes/sensor
+[1.831s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/meshes/sensor/ydlidar_g2.stl
+[1.831s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/meshes/wheel_r.STL
+[1.832s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/meshes/base
+[1.832s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/meshes/base/caster.stl
+[1.832s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/meshes/base/second.stl
+[1.832s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/meshes/base/mob_wheel.stl
+[1.832s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/meshes/base/first.stl
+[1.833s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/meshes/base/base.stl
+[1.833s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/meshes/wheel_l.STL
+[1.833s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/meshes/base_link.STL
+[1.834s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/urdf
+[1.834s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/urdf/diff_mobile.xacro
+[1.834s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/urdf/diff_mobile.urdf
+[1.834s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/urdf/inertial_macros.xacro
+[1.834s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/urdf/tracer_mini.urdf
+[1.834s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/urdf/diff_mobile2.urdf
+[1.834s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/urdf/sensors.xacro
+[1.835s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/urdf/robot_core.xacro
+[1.835s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/description/urdf/agilex_tracer.urdf
+[1.835s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/launch
+[1.835s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/launch/tracer_mini_description_rviz.launch.py
+[1.835s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/launch/view_diff_mobile.launch.py
+[1.835s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/launch/tracer_mini_description.launch.py
+[1.835s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/launch/tracer_mini_state_publisher.launch.py
+[1.835s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/rviz
+[1.835s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/rviz/rviz.rviz
+[1.835s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/rviz/view_rviz.rviz
+[1.835s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/worlds
+[1.835s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/worlds/willowgarage_world.world
+[1.836s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/worlds/my_room_world.world
+[1.836s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/worlds/models
+[1.836s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/worlds/models/object_my_room_world
+[1.836s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/worlds/models/object_my_room_world/object_my_room_world
+[1.836s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/worlds/models/object_my_room_world/object_my_room_world/model.sdf
+[1.836s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/worlds/models/object_my_room_world/object_my_room_world/model.config
+[1.836s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/worlds/models/my_room_world
+[1.836s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/worlds/models/my_room_world/model.sdf
+[1.836s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/worlds/models/my_room_world/model.config
+[1.836s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/config
+[1.837s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/config/diff_mobile_lds_2d.lua
+[1.837s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/config/navigation2.yaml
+[1.837s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/maps
+[1.837s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/maps/my_room_map.yaml
+[1.837s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/maps/my_room_map.pgm
+[1.837s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/ament_index/resource_index/package_run_dependencies/my_diff_mobile
+[1.837s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/ament_index/resource_index/parent_prefix_path/my_diff_mobile
+[1.837s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/environment/ament_prefix_path.sh
+[1.838s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/environment/ament_prefix_path.dsv
+[1.838s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/environment/path.sh
+[1.838s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/environment/path.dsv
+[1.838s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/local_setup.bash
+[1.838s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/local_setup.sh
+[1.838s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/local_setup.zsh
+[1.838s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/local_setup.dsv
+[1.838s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/package.dsv
+[1.838s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/ament_index/resource_index/packages/my_diff_mobile
+[1.839s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/cmake/my_diff_mobileConfig.cmake
+[1.839s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/cmake/my_diff_mobileConfig-version.cmake
+[1.839s] -- Installing: /home/geoni/myros2_ws/install/my_diff_mobile/share/my_diff_mobile/package.xml
+[1.847s] Invoked command in '/home/geoni/myros2_ws/build/my_diff_mobile' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/my_diff_mobile

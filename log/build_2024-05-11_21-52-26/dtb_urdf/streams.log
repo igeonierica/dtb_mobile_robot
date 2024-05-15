@@ -1,0 +1,99 @@
+[0.595s] Invoking command in '/home/geoni/myros2_ws/build/dtb_urdf': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake /home/geoni/myros2_ws/src/dtb_urdf -DCMAKE_INSTALL_PREFIX=/home/geoni/myros2_ws/install/dtb_urdf
+[0.658s] -- The C compiler identification is GNU 11.4.0
+[0.755s] -- The CXX compiler identification is GNU 11.4.0
+[0.772s] -- Detecting C compiler ABI info
+[0.973s] -- Detecting C compiler ABI info - done
+[0.998s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.999s] -- Detecting C compile features
+[1.000s] -- Detecting C compile features - done
+[1.004s] -- Detecting CXX compiler ABI info
+[1.168s] -- Detecting CXX compiler ABI info - done
+[1.180s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.181s] -- Detecting CXX compile features
+[1.182s] -- Detecting CXX compile features - done
+[1.188s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.497s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.641s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.801s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.801s] -- Added test 'lint_cmake' to check CMake code style
+[1.802s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.806s] -- Added test 'xmllint' to check XML markup files
+[1.809s] -- Configuring done
+[1.814s] -- Generating done
+[1.816s] -- Build files have been written to: /home/geoni/myros2_ws/build/dtb_urdf
+[1.825s] Invoked command in '/home/geoni/myros2_ws/build/dtb_urdf' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake /home/geoni/myros2_ws/src/dtb_urdf -DCMAKE_INSTALL_PREFIX=/home/geoni/myros2_ws/install/dtb_urdf
+[1.825s] Invoking command in '/home/geoni/myros2_ws/build/dtb_urdf': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/dtb_urdf -- -j16 -l16
+[1.878s] Invoked command in '/home/geoni/myros2_ws/build/dtb_urdf' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --build /home/geoni/myros2_ws/build/dtb_urdf -- -j16 -l16
+[1.922s] Invoking command in '/home/geoni/myros2_ws/build/dtb_urdf': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/dtb_urdf
+[1.934s] -- Install configuration: ""
+[1.934s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description
+[1.935s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/meshes
+[1.935s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/meshes/sensor
+[1.935s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/meshes/sensor/ydlidar_g2.stl
+[1.935s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/meshes/wheel_r.STL
+[1.936s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/meshes/base
+[1.936s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/meshes/base/caster.stl
+[1.936s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/meshes/base/second.stl
+[1.937s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/meshes/base/mob_wheel.stl
+[1.940s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/meshes/base/first.stl
+[1.941s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/meshes/base/base.stl
+[1.942s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/meshes/wheel_l.STL
+[1.942s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/meshes/base_link.STL
+[1.942s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/urdf
+[1.942s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/urdf/diff_mobile.xacro
+[1.942s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/urdf/diff_mobile.urdf
+[1.942s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/urdf/inertial_macros.xacro
+[1.943s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/urdf/tracer_mini.urdf
+[1.943s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/urdf/diff_mobile2.urdf
+[1.943s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/urdf/sensors.xacro
+[1.943s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/urdf/robot_core.xacro
+[1.943s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/description/urdf/agilex_tracer.urdf
+[1.943s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/launch
+[1.943s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/launch/tracer_mini_description_rviz.launch.py
+[1.943s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/launch/view_dtb_mobile.launch.py
+[1.943s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/launch/tracer_mini_description.launch.py
+[1.944s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/launch/tracer_mini_state_publisher.launch.py
+[1.944s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/rviz
+[1.944s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/rviz/rviz.rviz
+[1.944s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/rviz/model.rviz
+[1.944s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/rviz/view_rviz.rviz
+[1.945s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds
+[1.945s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/hello2
+[1.945s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/hello2/model.sdf
+[1.945s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/hello2/model.config
+[1.945s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/king.world
+[1.946s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/hello.world
+[1.946s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/willowgarage_world.world
+[1.946s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/my_room_world.world
+[1.946s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/models
+[1.946s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/models/object_my_room_world
+[1.946s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/models/object_my_room_world/object_my_room_world
+[1.946s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/models/object_my_room_world/object_my_room_world/model.sdf
+[1.946s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/models/object_my_room_world/object_my_room_world/model.config
+[1.946s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/models/my_room_world
+[1.947s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/models/my_room_world/model.sdf
+[1.947s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/worlds/models/my_room_world/model.config
+[1.947s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/config
+[1.947s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/config/diff_mobile_lds_2d.lua
+[1.947s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/config/navigation2.yaml
+[1.947s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/maps
+[1.947s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/maps/my_room_map.yaml
+[1.948s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/maps/igeoni_map.yaml
+[1.948s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/maps/my_room_map.pgm
+[1.948s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/maps/igeoni_map.pgm
+[1.948s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/ament_index/resource_index/package_run_dependencies/dtb_urdf
+[1.948s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/ament_index/resource_index/parent_prefix_path/dtb_urdf
+[1.948s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/environment/ament_prefix_path.sh
+[1.948s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/environment/ament_prefix_path.dsv
+[1.949s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/environment/path.sh
+[1.949s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/environment/path.dsv
+[1.949s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/local_setup.bash
+[1.949s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/local_setup.sh
+[1.949s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/local_setup.zsh
+[1.949s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/local_setup.dsv
+[1.949s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/package.dsv
+[1.949s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/ament_index/resource_index/packages/dtb_urdf
+[1.950s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/cmake/dtb_urdfConfig.cmake
+[1.950s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/cmake/dtb_urdfConfig-version.cmake
+[1.950s] -- Installing: /home/geoni/myros2_ws/install/dtb_urdf/share/dtb_urdf/package.xml
+[1.953s] Invoked command in '/home/geoni/myros2_ws/build/dtb_urdf' returned '0': CMAKE_PREFIX_PATH=/home/geoni/myros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/ugv_sdk:/home/geoni/myros2_ws/install/tracer_msgs:/home/geoni/myros2_ws/install/sllidar_ros2:/home/geoni/myros2_ws/install/my_diff_mobile:/home/geoni/myros2_ws/install/dtb_urdf:/home/geoni/myros2_ws/install/dtb_mobile_navigation:/home/geoni/myros2_ws/install/dtb_mobile_cartographer:/home/geoni/ros2_ws/install/tracer_base:/home/geoni/myros2_ws/install/dtb_mobile_navigation2:/home/geoni/myros2_ws/install/dtb_mobile_bringup:/home/geoni/ros2_ws/install/dtb_mobile_navigation2:/home/geoni/ros2_ws/install/dtb_mobile_bringup:/opt/ros/humble:/home/geoni/ros2_ws/install/ugv_sdk:/home/geoni/ros2_ws/install/tracer_msgs:/home/geoni/ros2_ws/install/sllidar_ros2:/home/geoni/ros2_ws/install/my_diff_mobile:/home/geoni/ros2_ws/install/dtb_urdf2:/home/geoni/ros2_ws/install/dtb_urdf:/home/geoni/ros2_ws/install/dtb_mobile_navigation:/home/geoni/ros2_ws/install/dtb_mobile_cartographer /usr/bin/cmake --install /home/geoni/myros2_ws/build/dtb_urdf
